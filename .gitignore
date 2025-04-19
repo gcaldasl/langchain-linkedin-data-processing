@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.avro
+*.json
+*.xml
+*.db
+*.sqlite
+*.sqlite3
+*.dat
+*.bak
+
+# But keep example data files
+!examples/*.csv
+!examples/*.json
+
+# Logs
+logs/
+*.log
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+.idea_modules/
+out/
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata
+# Visual Studio
+.vs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Spark
+spark-warehouse/
+metastore_db/
+
+# Environment variables
+.env
+.env.local
+
+# Temp files
+tmp/
+temp/
+
+# Output directories
+output/
+results/
